@@ -5,7 +5,7 @@ Custom Twig functions used for websites since 2020.
 ## Installation
 Should be easily installed using [composer](http://getcomposer.org/)
 
-    composer require jasny/twig-extensions
+    composer require carter-digital/twig-extensions
 
 ## Key features/notes:
 1. Required for Baseline's styleguide implementation.
