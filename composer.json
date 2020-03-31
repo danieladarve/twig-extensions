@@ -1,0 +1,30 @@
+{
+    "name": "carter-digital/twig-extensions",
+    "description": "Carter Digital's twig extensions pack",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Ignatyev",
+            "email": "andrey@carterdigital.com.au"
+        }
+    ],
+    "autoload": {        
+        "psr-4": {
+            "CarterDigital\\TwigExtensions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/utils/"
+        ]
+    },
+    "require": {
+        "twig/twig": "^3.0",
+        "php": ">=7.2.1",
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    }
+}
