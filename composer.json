@@ -2,6 +2,7 @@
     "name": "carter-digital/twig-extensions",
     "description": "Carter Digital's twig extensions pack",
     "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
