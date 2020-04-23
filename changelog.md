@@ -1,3 +1,7 @@
+## 1.0.5 - 2020-04-23
+### Changed
+- Added more paths to Dotenv instantiation
+
 ## 1.0.4 - 2020-04-23
 ### Changed
 - Dotenv instantiation downgraded to match the requirements of Dotenv 3
