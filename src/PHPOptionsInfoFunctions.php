@@ -36,7 +36,7 @@ class PHPOptionsInfoFunctions extends AbstractExtension {
      * @return string
      */
     public function getEnv($key) {
-        $dotenv = Dotenv::createImmutable('./');
+        $dotenv = Dotenv::create('./');
         $dotenv->load();
 
         return getenv($key);
