@@ -27,6 +27,6 @@ class PHPMathFunctionsTest extends TestCase
     {
         $this->assertTrue(is_numeric($this->render('{{ uniqueId() }}')));
         $this->assertTrue(!is_numeric($this->render('{{ uniqueId("id-") }}')));
-        $this->assertRender(-1, (strcmp($this->render('{{ uniqueId() }}'), $this->render('{{ uniqueId() }}'))));
+        $this->assertTrue(strcmp($this->render('{{ uniqueId() }}'), $this->render('{{ uniqueId() }}')) !== 0);
     }
 }
