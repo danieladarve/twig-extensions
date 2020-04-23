@@ -19,11 +19,11 @@ class PHPPCREFunctionsTest extends TestCase
     }
 
     /**
-     * Return the provided string back with a unique hash appended to it
+     * Return true or false depending on whether a provided string is a latin string
      *
      * @return string
      */
-    public function testUniqueId() 
+    public function testIsEnglish() 
     {
         $this->assertRender(0, $this->render('{{ isEnglish("тест") }}'));
         $this->assertRender(1, $this->render('{{ isEnglish("test") }}'));
