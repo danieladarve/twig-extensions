@@ -5,8 +5,8 @@ namespace CarterDigital\TwigExtensions;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
-class PHPMathFunctions extends AbstractExtension
-{
+class PHPFilesystemFunctions extends AbstractExtension
+{    
     /**
      * Return extension name
      *
@@ -14,7 +14,7 @@ class PHPMathFunctions extends AbstractExtension
      */
     public function getName()
     {
-        return 'carter-digital/php-math-functions';
+        return 'carter-digital/php-filesystem-functions';
     }
 
     /**
@@ -23,7 +23,7 @@ class PHPMathFunctions extends AbstractExtension
     public function getFunctions()
     {
         return [
-            new TwigFunction('uniqueId', [$this, 'generateUniqueId'])
+            new TwigFunction('pathinfo', [$this, 'getPathinfo'])
         ];
     }
 
@@ -32,9 +32,9 @@ class PHPMathFunctions extends AbstractExtension
      *
      * @return string
      */
-    public function generateUniqueId($text = null)
+    public function getPathinfo($file)
     {
-        $result = $text . rand();
+        $result = pathinfo($file);
 
         return $result;
     }

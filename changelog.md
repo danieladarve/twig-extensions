@@ -1,3 +1,7 @@
+## 1.1.0 - 2020-05-14
+### Added
+- pathinfo() added to Twig functions
+
 ## 1.0.5 - 2020-04-23
 ### Changed
 - Added more paths to Dotenv instantiation
