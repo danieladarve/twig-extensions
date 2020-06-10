@@ -1,12 +1,14 @@
 <?php
 
-namespace CarterDigital\TwigExtensions;
+namespace CarterDigital\TwigExtensions\Tests;
 
 use PHPUnit\Framework\TestCase;
 
+use CarterDigital\TwigExtensions\PHPPCREFunctions;
+
 class PHPPCREFunctionsTest extends TestCase
 {
-    use TestHelpers;
+    use Utils\TestHelpers;
 
     /**
      * Get the tested extension

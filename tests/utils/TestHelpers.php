@@ -1,6 +1,6 @@
 <?php
 
-namespace CarterDigital\TwigExtensions;
+namespace CarterDigital\TwigExtensions\Tests\Utils;
 
 use Twig\Environment;
 use Twig\Loader\ArrayLoader;

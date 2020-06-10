@@ -21,7 +21,7 @@ class PHPOptionsInfoFunctions extends AbstractExtension {
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function getFunctions()
     {
@@ -33,6 +33,7 @@ class PHPOptionsInfoFunctions extends AbstractExtension {
     /**
      * Return an env value for the provided key
      *
+     * @param string $key
      * @return string
      */
     public function getEnv($key) {

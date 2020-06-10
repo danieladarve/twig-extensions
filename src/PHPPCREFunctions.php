@@ -18,7 +18,7 @@ class PHPPCREFunctions extends AbstractExtension
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function getFunctions()
     {
@@ -30,6 +30,7 @@ class PHPPCREFunctions extends AbstractExtension
     /**
      * Checks a string for having alphanumeric latin symbols
      *
+     * @param string $text
      * @return string
      */
     public function isEnglish($text = null) {

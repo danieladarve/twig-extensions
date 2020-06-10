@@ -1,12 +1,14 @@
 <?php
 
-namespace CarterDigital\TwigExtensions;
+namespace CarterDigital\TwigExtensions\Tests;
 
 use PHPUnit\Framework\TestCase;
 
+use CarterDigital\TwigExtensions\PHPMathFunctions;
+
 class PHPMathFunctionsTest extends TestCase 
 {
-    use TestHelpers;
+    use Utils\TestHelpers;
 
     /**
      * Get the tested extension

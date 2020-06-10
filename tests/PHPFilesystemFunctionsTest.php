@@ -1,12 +1,14 @@
 <?php
 
-namespace CarterDigital\TwigExtensions;
+namespace CarterDigital\TwigExtensions\Tests;
 
 use PHPUnit\Framework\TestCase;
 
+use CarterDigital\TwigExtensions\PHPFilesystemFunctions;
+
 class PHPFilesystemFunctionsTest extends TestCase
 {
-    use TestHelpers;
+    use Utils\TestHelpers;
 
     /**
      * Get the tested extension
@@ -17,8 +19,6 @@ class PHPFilesystemFunctionsTest extends TestCase
     {
         return new PHPFilesystemFunctions();
     }
-
-    
 
     /**
      * Return the provided string back with a unique hash appended to it

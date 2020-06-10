@@ -1,11 +1,14 @@
 <?php
 
-namespace CarterDigital\TwigExtensions;
+namespace CarterDigital\TwigExtensions\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-final class PHPOptionsInfoFunctionsTest extends TestCase {
-    use TestHelpers;
+use CarterDigital\TwigExtensions\PHPOptionsInfoFunctions;
+
+final class PHPOptionsInfoFunctionsTest extends TestCase 
+{
+    use Utils\TestHelpers;
 
     /**
      * Get the tested extension

@@ -18,7 +18,7 @@ class PHPMathFunctions extends AbstractExtension
     }
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function getFunctions()
     {
@@ -30,6 +30,7 @@ class PHPMathFunctions extends AbstractExtension
     /**
      * Return passed string with a unique hash appended to it
      *
+     * @param string $text
      * @return string
      */
     public function generateUniqueId($text = null)

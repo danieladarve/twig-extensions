@@ -30,6 +30,7 @@ class PHPFilesystemFunctions extends AbstractExtension
     /**
      * Return passed string with a unique hash appended to it
      *
+     * @param string $text
      * @return string
      */
     public function getPathinfo($file)
