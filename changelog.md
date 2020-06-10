@@ -1,3 +1,10 @@
+## 1.2.0 - 2020-06-10
+### Added
+- md5() added to Twig functions
+
+### Updated
+- Documentation and namespaces updated
+
 ## 1.1.0 - 2020-05-14
 ### Added
 - pathinfo() added to Twig functions
