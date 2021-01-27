@@ -2,7 +2,7 @@
     "name": "carter-digital/twig-extensions",
     "description": "Carter Digital's twig extensions pack",
     "type": "library",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,7 @@
             "email": "andrey@carterdigital.com.au"
         }
     ],
-    "autoload": {        
+    "autoload": {
         "psr-4": {
             "CarterDigital\\TwigExtensions\\": "src/"
         }
@@ -21,8 +21,8 @@
         }
     },
     "require": {
-        "twig/twig": "~2.12.0",
-        "php": ">=7.2.19",  
+        "twig/twig": "^2.12.5",
+        "php": ">=7.2.19",
         "vlucas/phpdotenv": "^3.0"
     },
     "require-dev": {

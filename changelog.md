@@ -1,3 +1,7 @@
+## 1.2.1 - 2021-01-27
+### Changed
+- Dependencies updated
+
 ## 1.2.0 - 2020-06-10
 ### Added
 - md5() added to Twig functions
@@ -29,7 +33,7 @@
 
 ## 1.0.1 - 2020-04-01
 ### Changed
-- Dependecies updated
+- Dependencies updated
 - PHPUnit cache file added to .gitignore
 
 ## 1.0.0 - 2020-03-31
