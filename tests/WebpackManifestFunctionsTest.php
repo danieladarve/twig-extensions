@@ -65,7 +65,6 @@ class WebpackManifestFunctionsTest extends TestCase
      */
     public function testIsManifestFile()
     {
-
         $this->assertRender('/dist/app.css', $this->render('{{ manifestFile("app.css") }}'));
     }
 }
