@@ -1,3 +1,23 @@
+## 1.3.0 - 2022-03-24
+### Added
+- Craft Compatibility class that will contain custom Twig funtions and tags from Craft CMS extentions
+
+### Fixed
+- Formatting
+- Wrong test name
+
+## 1.2.4 - 2021-08-09
+### Fixed
+- Minor composer.json bug
+
+## 1.2.3 - 2021-08-09
+### Changed
+- Higher Twig version required
+
+## 1.2.2 - 2021-07-12
+### Added
+- WebpackManifest() added to Twig Functions
+
 ## 1.2.1 - 2021-01-27
 ### Changed
 - Dependencies updated
