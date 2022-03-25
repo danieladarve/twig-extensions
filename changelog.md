@@ -1,3 +1,7 @@
+## 1.3.1 - 2022-03-26
+### Added
+- svg() to Craft Compatibility collection
+
 ## 1.3.0 - 2022-03-24
 ### Added
 - Craft Compatibility class that will contain custom Twig funtions and tags from Craft CMS extentions
