@@ -55,7 +55,7 @@ class CraftCompatibility extends AbstractExtension
      * @param string $message
      * @return string
      */
-    public function translateFilter($message): string
+    public function translateFilter($message): string|null
     {
         return $message;
     }
