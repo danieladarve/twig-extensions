@@ -20,7 +20,7 @@
         }
     },
     "require": {
-        "twig/twig": "~2.15.3",
+        "twig/twig": "~3.4.3",
         "php": ">=8.2",
         "vlucas/phpdotenv": "^4"
     },
