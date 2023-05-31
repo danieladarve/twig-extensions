@@ -37,9 +37,12 @@ class PHPOptionsInfoFunctions extends AbstractExtension {
      * @return string
      */
     public function getEnv($key) {
-        $dotenv = Dotenv::create(['./../', './']);
-        $dotenv->load();
+        if (class_exists(Dotenv\Dotenv::class)) {
+            // By default, this will allow .env file values to override environment variables
+            // with matching names. Use `createUnsafeImmutable` to disable this.
+            Dotenv\Dotenv::createUnsafeMutable(CRAFT_BASE_PATH)->safeLoad();
 
-        return getenv($key);
+            return getenv($key);
+        }
     }
 }
